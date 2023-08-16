@@ -2,6 +2,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 import * as apigateway from "@pulumi/aws-apigateway";
 
+
 // A Lambda function to invoke
 const fn = new aws.lambda.CallbackFunction("fn", {
     callback: async (ev, ctx) => {
@@ -16,7 +17,7 @@ const fn2 = new aws.lambda.CallbackFunction("fn2",{
     callback:async (ev, ctx) => {
         return {
             statusCode:200,
-            body: "function 2sddddsssssssssss"
+            body: "function 2sddddssssssssssssssss"
         }
     }
 })
