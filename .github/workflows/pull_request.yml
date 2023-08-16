@@ -2,7 +2,7 @@ name: Pulumi
 on:
   push:
     branches:
-      - production
+      - productions
 jobs:
   update:
     name: Update
@@ -22,6 +22,6 @@ jobs:
       - uses: pulumi/actions@v3
         with:
           command: up
-          stack-name: knose/dev # When using an individual account, only use stack-name.
+          stack-name: org-name/stack-name # When using an individual account, only use stack-name.
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}

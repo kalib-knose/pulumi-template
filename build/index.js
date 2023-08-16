@@ -4,7 +4,6 @@ exports.endpoint = void 0;
 require("module-alias/register");
 const pulumi = require("@pulumi/pulumi");
 const aws = require("@pulumi/aws");
-// import { lambdaFunction } from "@resource/lambda/example"
 const stack = pulumi.getStack();
 const lambdaRole = new aws.iam.Role("lambdaRole", {
     assumeRolePolicy: {
