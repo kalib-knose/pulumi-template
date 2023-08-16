@@ -1,0 +1,21 @@
+{
+    "name": "example",
+    "main": "index.js",
+    "devDependencies": {
+      "@types/node": "^18"
+    },
+    "dependencies": {
+      "axios": "^1.1.2",
+      "@aws-sdk/client-cloudwatch-events": "^3.204.0",
+      "@aws-sdk/client-secrets-manager": "^3.200.0",
+      "@pulumi/awsx": "^0.40.0",
+      "aws-sdk": "^2.1208.0",
+      "module-alias": "^2.2.2"
+    },
+    "_moduleAliases": {
+        "@": "build",
+        "@src": "build/src",
+        "@resource": "build/resource"
+      }
+  }
+  

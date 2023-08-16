@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/lambda/example/index.ts"],"names":[],"mappings":";;;;;;;;;;;;AAGO,MAAM,OAAO,GAAG,CAAO,KAAU,EAAE,EAAE;IAExC,OAAO,CAAC,GAAG,CAAC,WAAW,GAAG,IAAI,CAAC,SAAS,CAAC,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC,CAAC,CAAA;IACzD,OAAO;QACH,UAAU,EAAE,GAAG;QACf,IAAI,EAAE,gBAAgB;KACzB,CAAC;AACN,CAAC,CAAA,CAAA;AAPY,QAAA,OAAO,WAOnB"}
