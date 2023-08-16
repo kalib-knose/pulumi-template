@@ -16,7 +16,7 @@ const fn2 = new aws.lambda.CallbackFunction("fn2",{
     callback:async (ev, ctx) => {
         return {
             statusCode:200,
-            body: "function 2"
+            body: "function 2ssssssssssss"
         }
     }
 })
